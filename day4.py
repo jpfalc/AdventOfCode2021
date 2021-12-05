@@ -32,6 +32,7 @@ def call_number(n):
         return(np.sum(unmarked) * n)
     return(0)
 
+# ---- MAIN ITERATOR ----
 result = np.fromiter(map(call_number, draws), dtype=np.int)
 print('Part One Answer:', result[np.where(result > 0)[0][0]])
 print('Part Two Answer:', result[np.where(result > 0)[0][-1]])
