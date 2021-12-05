@@ -1,5 +1,4 @@
 import numpy as np
-from numpy.lib.twodim_base import fliplr
 
 # ---- LOAD DATA ----
 draws = np.genfromtxt('data/day4_draws.txt', dtype=int, delimiter=',')
