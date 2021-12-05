@@ -1,6 +1,6 @@
 import numpy as np
 
-# ---- LOAD DATA ----
+# ---- Load Data ----
 draws = np.genfromtxt('data/day4_draws.txt', dtype=int, delimiter=',')
 card_data = np.genfromtxt('data/day4_cards.txt', dtype=int)
 card_rows, card_cols = card_data.shape
